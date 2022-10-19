@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista</title>
+</head>
+<body>
+   <!-- <h2>Lista punktowa</h2>
+    <ul type="square">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    </ul>
+    <h2>Lista numeryczna</h2>
+    <ol  start="10">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li value="8">  Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+    </ol>-->
+    <h2>Lista zagniezdzona</h2>
+    <ol start="10">
+        <l1>item1</l1>
+        <ul>
+            <li>abc</li>
+        </ul>
+        <l1>item2</l1>
+        <ul>
+            <li>abc</li>
+        </ul>
+    </ol>
+</body>
+</html>
