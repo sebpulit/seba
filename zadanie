@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista-Spis treści</title>
+</head>
+<body>
+    <ol  type="I">
+        <li>Wprowadzenie</li>
+        <ol>
+            <li>Skladnia jezyka HTML</li>
+            <ol type="a">
+                <li>Znaczniki i elementy</li>
+                <li>Struktura dokumenotowa</li>
+                <li>Pierwsza strona WWW</li>
+
+            </ol>
+            <li value="7">Kaskadowe arkusze stylów</li>
+            <ol type="a">
+                <li>Struktura i wygląd dokumentu</li>
+                <li>Dołączanie stylow do dokumentow</li>
+                <ul type="square">
+                    <li>Style zewnetrzne</li>
+                    <li>Style wewnetrzne</li>
+                </ul>
+                <li>Domyslny jezyk stylow</li>
+                <ol>Domyślny język stylów</ol>
+                
+            </ol>
+            
+            
+        </ol>
+    </ol >
+        
+
+
+
+</body>
+</html>
