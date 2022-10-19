@@ -25,12 +25,17 @@
                     <li>Style wewnetrzne</li>
                 </ul>
                 <li>Domyslny jezyk stylow</li>
-                <ol>Domyślny język stylów</ol>
                 
             </ol>
-            
+            <li>Składnia kaskadowych arkuszy stylów</li>
+
             
         </ol>
+        <li>Dodatki</li>
+        <ol type="A">
+            <li>Instalacja oprogramowania</li>
+        </ol>
+        <li>Skorowidz</li>
     </ol >
         
 
