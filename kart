@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <li>Pozycja 1</li>
+        <ul type="disc">
+            <li>Element 1</li>
+            <li>Element 2</li>
+            <ul style="list-style-type:circle">
+                <li>Element 21 </li>
+                <li>Element 22</li>
+            </ul>
+            <li>Element 3</li>
+        </ul>
+
+        <li>Kolejna pozycja</li>
+        <ol type="a">
+            <li>Element A</li>
+            <li>Element B</li>
+
+        </ol>
+
+    </ol>
+    <table border="1">
+        <tr style="text-align: center; ">
+        <td>Komorka 1</td>
+        <td>Komorka 2</td>
+        <td colspan="3"rowspan="2">Komorka 5</td>
+        </tr>
+        <tr>
+        <td>Komorka 3</td>
+        <td>Komorka 4</td>
+        </tr>
+        <tr>
+        <td>Komorka 6</td>
+        <td>Komorka 7</td>
+        <td rowspan="3">Komorka 10</td>
+        <td rowspan="3">Komorka 11</td>
+        <td>Komorka 12</td>
+        </tr>
+        <tr>
+         <td>Komorka 8</td>
+         <td>Komorka 9</td>
+         <td rowspan="2">Komorka 12</td>
+
+        </tr>
+        <tr style="text-align: center; ">
+            <td colspan="2">Komorka 14</td>
+
+        </tr>
+        <table>
+
+
+</body>
+</html>
