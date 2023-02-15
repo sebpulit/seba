@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=a, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Deklaracja przystąpienia do ING Otwartego Funduszu Emerytalnego</h1>
+    <form>
+        Nazwisko
+        <input type="text" name="Nazwisko">
+        <br>Imiona &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="imie1">
+        <input type="text" name="imie2">
+        <input type="text" name="imie3">
+        <br>Data urodzenia
+        <input type="text"name="data" size="1">/
+        <input type="text"name="data2" size="1">/
+        <input type="text"name="data3" size="1">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;
+
+        Płeć 
+        <select name="Plec">
+            <option>Kobieta</option>
+            <option>Mezczyzna</option>
+            </select>
+            <br>
+            Pesel
+            <input type="text" name="pesel">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Nip
+            <input type="text"name="nip1" size="1">/
+            <input type="text"name="nip2" size="1">/
+            <input type="text"name="nip3" size="1">
+            <input type="text"name="nip4" size="1">
+            <br>
+            Dokument
+            <select name="dokument">
+                <option>Dowod osobisty</option>
+                <option>Paszport</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Seria i nr. dokumentu
+                <input type="text"name="nr" size="1">
+                <p>* wymagane wypełnienie co najmniej 1 z 2 pół "PESEL", "Seria inr dok</p>
+                <br>
+                Stan cywilny
+                <select name="stan">
+                    <option> </option>
+                    <option>Kawaler </option>
+                    <option>Zamezna</option>
+                    <option>Zonata</option>
+                    </select>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    Kraj obywatelstwa
+                    <select name="kraj">
+                        <option>Polska </option>
+                        <option>Inny</option>
+                        </select>
+                        <h3>Adres stalego zamieszkania</h3>
+                        Ulica
+                        <input type="text" name="ulica">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Nr domu 
+                        <input type="text" name="domu" size="2">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Nr zamieszkania
+                        <input type="text" name="zamieszkania" size="1">
+                        <br>
+                        Miejscowosc
+                        <input type="text" name="Miejscowosc>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Kod pocztowy
+                        <input type="text" name="kod" size="2">
+                        
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
