@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=a, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Imie
+        <input type="text" name="Imie">
+        <br>Nazwisko 
+        <input type="text" name="imie1">
+        <br>Data urodzenia (rok-miesiac-dzien)
+        <input type="text"name="data" size="1">/
+        <input type="text"name="data2" size="1">/
+        <input type="text"name="data3" size="1">
+        <br>
+        Pesel
+        <input type="text" name="pesel">
+        </select>
+            <br>
+            Numer telefonu
+            <input type="text"name="nip1" size="1"> -
+            <input type="text"name="nip2" size="1"> -
+            <input type="text"name="nip3" size="1">
+            <br>
+            Ulica
+            <input type="text" name="Ulica">
+            <br>
+            Miejscowosc
+            <input type="text" name="Miejscowosc">
+            <br>
+            Numer domu 
+            <input type="text" name="numer" size="1">
+            <br>
+            Kod pocztowy (xx-xxx)
+            <input type="text" name="numer_pocztowy" size="2">
+            <br> 
+            Województwo  
+              <select name="Województwo">
+                  <option>Malopolskie </option>
+                  <option>Slaskie</option>
+                  <option>Pomorskie</option>
+                  <option>Mazowieckie</option>
+              </select>
+              <br>
+              Płeć:
+              <br>
+              <input type="radio" name="kobieta">Kobieta
+              <br>
+              <input type="radio" name="kobieta">Mężczyzna
+              <br>
+              Cechy:
+              <br>
+              <input type="checkbox" name="cecha1">Miły
+              <br>
+              <input type="checkbox" name="cecha12">Szczery
+              <br>
+              <input type="checkbox" name="cecha13">Zabawny
+              <br>
+              <input type="checkbox" name="cecha14">Przyjacielski
+              <br>
+              <input type="checkbox" name="cecha15">Emocjonalny
+              <br>
+              Opinia
+              <br>
+              <textarea cols="20" rows="5"></textarea>
+              <fieldset style="width: 300px;">
+                <legend>Dane</legend>
+                Ulubiona gra <input type="text" name="gra">
+                <br>
+                Wersja telefonu <input type="text" name="Wersja">
+               </fieldset>
+    </form>
+</body>
+</html>
