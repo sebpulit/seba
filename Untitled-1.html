@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jedzenie</title>
+</head>
+<body>
+    <style>
+                body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 700px;
+            background-color: #f4f4f4;
+
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+        #zdjecie {
+            text-align: center;
+        }
+        #nazwa{
+            text-align: center;
+            font-size: 40px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+
+    <div class="contener">
+        <div id="zdjecie">
+
+        </div>
+    
+        <div id="nazwa">
+    
+        </div>
+    
+        <div id="skladniki">
+            <table>
+                <tr>
+                    <th>Skladniki</th>
+                    <th>Proporcje</th>
+                </tr>
+            </table>
+        </div>
+
+    <script>
+
+        fetch("https://www.themealdb.com/api/json/v1/1/random.php")
+        .then(Request =>Request.json())
+        .then(data => getData(data));
+
+
+        function getData(dania){
+            console.log(dania)
+            const losoweDanie = dania["meals"][0];
+
+            const nazwalosowegoDania = losoweDanie["strMeal"]
+            console.log("Nazwa dania:" + nazwalosowegoDania);
+       
+            for(var i=1;i<=20;i++)
+            {
+                if (losoweDanie["strIngredient" + i])
+                {
+                    const nazwalosowegoSkladniku = losoweDanie["strIngredient" + i]
+            const table = document.querySelector('table');
+                    const row = table.insertRow(table.rows.length);
+                    const cell1 = row.insertCell(0);
+                    const cell2 = row.insertCell(1);
+                    cell1.innerHTML = nazwalosowegoSkladniku;
+                    cell2.innerHTML = losoweDanie["strMeasure" + i];
+
+                }
+
+            }
+            const losowezdjecie = losoweDanie["strMealThumb"]
+            console.log("zdjecie: " + losowezdjecie);
+            const pobranydiv = document.getElementById("zdjecie")
+      
+      const imgElement = document.createElement('img');
+
+          imgElement.src = losowezdjecie;
+
+          pobranydiv.appendChild(imgElement);
+          
+
+          const pobranydiv2 = document.getElementById("nazwa")
+      
+          pobranydiv2.innerHTML = nazwalosowegoDania;
+
+
+
+        }
+
+ 
+
+        
+    </script>
+
+
+</body>
+</html>
